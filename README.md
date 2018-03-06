@@ -20,7 +20,7 @@ Phone: 18627036360 (China)
     * A single page web application based on Mithril framework
     * Maintenance of the company's Gitlab and Gitlab CIs
     * Express & Node.js based backend for rendering pages and API rerouting
-2. Backend engineer in YueRanXinDong till now.
+2. Backend engineer in YueRanXinDong 7 months ago till now.
     * Express & Node.js based API server for Neon, Meetstar, and other Apps
     * Gin & Golang based API server for a Tinder-like App
     * Maintenance of AWS dynamoDB, RDS, Lambda, EC2, Kenisis etc.

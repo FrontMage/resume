@@ -1,5 +1,7 @@
 ### Biguo Xin - Full stack egineer
 
+![Screenshot](avatar.png)
+
 ```
 I'm a self-motivated man who loves very much about programming.
 

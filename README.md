@@ -27,7 +27,7 @@ Phone: 18627036360 (China)
 ---
 ### Part-time projects
 * [dynamo.cli](https://github.com/FrontMage/dynamo.cli) query AWS dynamoDB with SQL in a prompt
-* [siteWarden](https://github.com/FrontMage/siteWarden) monitor website changes with Chrome puppeteer and image diff algorithm
+* [siteWarden](https://github.com/FrontMage/siteWarden) monitor website changes with Chrome puppeteer and image diff algorithm (This one is currently deleted, because there is a leak of password)
 * [NSFW image rating](http://120.78.173.99:4000/tryout) a tensorflow and Yahoo's open-nsfw based nudity detection
 ---
 ### Skills

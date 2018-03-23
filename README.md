@@ -17,6 +17,9 @@ Email: xwhxbg@gmail.com
 Phone: 18627036360 (China)
 
 ---
+### Education
+HeiLongJiang University Math Master 2010-2015
+---
 ### Experiences
 1. Frontend engineer in HangbanGuanjia for 16 months.
     * A single page web application based on Mithril framework

@@ -75,7 +75,7 @@
 通过flask和gunicorn做成HTTP API。
 ```
 ---
-### 既能
+### 技能
 * HTML/CSS/SCSS Layout and styling pack
 ```
 阅读和编写HTML页面，CSS框架，解决浏览器兼容性问题。

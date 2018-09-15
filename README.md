@@ -1,116 +1,192 @@
-### Biguo Xin - Full stack egineer
+### 辛必果 - 全栈工程师
 
 ![Screenshot](avatar.png)
 
 ```
-I'm a self-motivated man who loves very much about programming.
+我是一个非常喜欢编程的，自我驱动学习的程序员。
 
-I do always learn before I invent so that my colleagues don't have to deal with "genius" code.
+每当遇到新的问题，我都会先调研和学习前人的经验，再进行编码，避免写出过于“聪明”的代码。
 
-Programming skills are like wands for wizards, they can help build many amazing things in a fantastic way.
-But unlike magic, programming is about simplicity, readability. 
+我认为现代社会，编程就像《哈利波特》中的魔杖一样，可以帮我们建造很多很有意思的东西。
+与魔法不同的是，编程的宗旨在于简单性，易读性。
 
-And that's what I do, build awesome(hopefully) things with simple readable code.
+这就是我现在做的事情，写出好玩，简单，可读的代码。
 ```
 
-Email: xwhxbg@gmail.com
-Phone: 18627036360 (China)
+邮箱: xwhxbg@gmail.com
+电话: 18627036360 (中国)
 
 ---
-### Education
-Heilongjiang University Math Master 2010-2015
+
+### 教育经历
+
+## 黑龙江大学 数学与应用数学学士 2010-2015
+
+### 工作经验
+
+1. 前端工程师 航班管家 16 个月.
+
+   - 基于 Mithril 框架的单页 web 应用
+
+   ```
+   包括路由，状态管理，会话恢复，复杂交互组件。
+   ```
+
+   - 维护公司的 Gitlab 和 Gitlab CI.
+
+   ```
+   包括对应问题的debug，Gitlab的升级和迁移等。
+   ```
+
+   - 基于 Express & Node.js 的页面渲染，API 转发
+
+   ```
+   包括JS和CSS打包，请求追踪，请求缓存。
+
+   支持JS动态打包，typescript动态编译打包。
+   ```
+
+2. 后端工程师 悦然心动 7 个月.
+
+   - 基于 Express & Node.js 的后端 API
+
+   ```
+   除此之外还有复杂异步流程管理，以及golang和Python实现的部分功能。
+
+   用node与DynamoDB交互。
+
+   部署在lambda，ELB和容器内。
+   ```
+
+   - 基于 Gin & Golang 的社交应用后端 AI
+
+   ```
+   基于GORM与postgres交互，以及使用postGIS计算地理位置。
+
+   使用Jenkins编译并发布golang应用。
+   ```
+
+   - 维护 AWS dynamoDB, RDS, Lambda, EC2, Kenisis etc.
+
+3. 全栈工程师 武汉大学大数据研究院 至今
+
+   - 数据清洗，MySQL=>图数据库
+
+   ```
+   MySQL数据转RDF，RDF导入图数据库，例如neo4j
+   ```
+
+   - 图数据库上算法实现，业务查询接口
+
+   ```
+   通过sparql查询indgree，outdegree，density，distance，circle等图属性
+   ```
+
+   - 前端页面
+
+   ```
+   通过d3.js和echarts.js展示graph
+   ```
+
 ---
-### Experiences
-1. Frontend engineer in HangbanGuanjia for 16 months.
-    * A single page web application based on Mithril framework
-    ```
-    Including routers, state management, session restore, complicated user-interactive components.
-    ```
-    * Maintenance of the company's Gitlab and Gitlab CIs
-    ```
-    Including docker related problems debug, Gitlab upgrading, moving issues.
-    ```
-    * Express & Node.js based backend for rendering pages and API rerouting
-    ```
-    Including request tracing, request caching, javascript and CSS packing.
 
-    Supporting dynamic module loading from the browser, typescript transpile.
-    ```
-2. Backend engineer in YueRanXinDong 7 months ago till now.
-    * Express & Node.js based API server for Neon, Meetstar, and other Apps
-    ```
-    Other than above, there is long async flow managing, composition with golang, python.
+### 业余项目
 
-    Interactive with DynamoDB with node.
+- [dynamo.cli](https://github.com/FrontMage/dynamo.cli) 使用 SQL 操作 AWS DynamoDB
 
-    Deploying with lambda, ELB, and containers.
-    ```
-    * Gin & Golang based API server for a Tinder-like App
-    ```
-    API routing with Gin.
+```
+解析SQL并将其转化为DynamoDB API。
 
-    Interactive with Postgres and DynamoDB, query and calculate GEO information with PostGIS.
+用goroutine实现多查询并发以及命令行交互。
+```
 
-    Building and delivering golang applications automatically with Jenkins.
-    ```
-    * Maintenance of AWS dynamoDB, RDS, Lambda, EC2, Kenisis etc.
+- [siteWarden](https://github.com/FrontMage/siteWarden) 监控网站变化，利用图像差异和 Chrome puppeteer 实现 (由于有密码泄露，这个仓库暂时被删掉了)
+
+```
+通过Chrome puppeteer登录网站。
+
+如果图像差异超过阈值，则用邮件通知用户。
+```
+
+- [NSFW image rating](http://120.78.173.99:4000/tryout) 基于 TensorFlow 和 Yahoo 的 open-NSFW 的鉴黄
+
+```
+通过爬虫过去训练材料。
+
+通过TensorFlow建立并训练模型。
+
+通过flask和gunicorn做成HTTP API。
+```
+
+- [xinge push golang lib](https://github.com/FrontMage/xinge) 腾讯信鸽 push 的 golang lib，已被官方采纳
+
+```
+golang实现的服务端API
+```
+
+- [rock blog](https://github.com/FrontMage/rock) 前后端都是 rust 的  博客系统
+
+```
+Rust后端，前端由Rust编译到webassembly，数据存在MongoDB中
+```
+
+- [pm](https://github.com/FrontMage/pm) 进程管理器，类似 pm2
+
+```
+基于golang的pm2复刻，实现了基本的进程管理
+```
+
 ---
-### Part-time projects
-* [dynamo.cli](https://github.com/FrontMage/dynamo.cli) query AWS dynamoDB with SQL in a prompt
-```
-Analisis and convert SQL to DynamoDB APIs.
 
-Multiple query task and prompt integration with goroutines.
-```
-* [siteWarden](https://github.com/FrontMage/siteWarden) monitor website changes with Chrome puppeteer and image diff algorithm (This one is currently deleted because there is a leak of password)
-```
-Logging in websites with Chrome puppeteer.
+### 技能
 
-Sending an email with node-mailer.
-```
-* [NSFW image rating](http://120.78.173.99:4000/tryout) a tensorflow and Yahoo's open-nsfw based nudity detection
-```
-Gather training set with crawlers.
+- HTML/CSS/SCSS Layout and styling pack
 
-Building model and training with Tensorflow.
-
-Serving as HTTP API with flask and gunicorn.
 ```
+阅读和编写HTML页面，CSS框架，解决浏览器兼容性问题。
+```
+
+- Javascript in browsers
+
+```
+熟悉原生JavaScript API，主流MVC框架，例如React，Vue，Mithril等。
+
+了解web assembly，asm.js。了解浏览器端JavaScript性能优化。
+```
+
+- Javascript in Node.js(Quiet different)
+
+```
+熟悉Express，KOA等HTTP路由框架。
+
+了解流式编程，异步流程控制，事件循环。
+```
+
+- Golang
+
+```
+熟悉Gin，Beego等HTTP路由框架。
+
+熟悉tui-go，go-prompt等命令行框架。
+
+了解slice，goroutine，channel和interface的底层实现。
+
+了解如何debug goroutine泄露，channel死锁。
+
+了解如何测试，描述，和性能测试。
+
+了解go和主流SQL和NoSQL数据库交互。
+```
+
+- Rust
+- Python
+- Reason
+- Julia
+
+
+
 ---
-### Skills
-* HTML/CSS/SCSS Layout and styling pack
-```
-Read and write HTML pages, CSS frameworks, solve issues with different browsers.
-```
-* Javascript in browsers
-```
-Working with built-in javascript API, MVC frameworks like React, Vue, Mithril etc.
 
-Knows about web assembly, asm.js. Knows how to optimize javascript in browsers.
-``` 
-* Javascript in Node.js(Quiet different)
-```
-Working with Express, KOA, and other HTTP routing frameworks.
+### 年龄
 
-Knows stream programing in node, async flow control, and event loops.
-```
-* Golang
-```
-Working with Gin, Beego and other HTTP routing frameworks.
-
-Working with tui-go, go-prompt and other go command line application frameworks.
-
-Knows internals of slice, goroutine, channel, and interface.
-
-Knows how to debug goroutine leaks, channel deadlocks.
-
-Knows how to test, profile, benchmark go programs.
-
-Knows how to interact with databases both SQL and NoSQL with go.
-```
-* Rust(Bit rusty though)
-* Python
-* Reason
----
-### In case you wonder
-I'm 26.
+26

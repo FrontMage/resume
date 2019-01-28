@@ -20,7 +20,7 @@ Phone: 18627036360 (China)
 
 ### Education
 
-## Heilongjiang University Math Master 2010-2015
+## Heilongjiang University Math Bachelor 2010-2015
 
 ### Experiences
 

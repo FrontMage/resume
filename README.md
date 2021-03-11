@@ -203,6 +203,28 @@ Rust后端，前端由Rust编译到webassembly，数据存在MongoDB中
 ```
 
 - Rust
+
+```
+熟悉tokio，future并发编程
+
+熟悉codec，frame，中间件，router的各种机制
+```
+
+- Transformers
+
+```
+熟悉Bert，RestNet等主流nlp和图像处理模型
+
+熟悉数据清洗，平衡，归一化
+
+熟悉超参数调优
+
+熟悉模型指标评价
+
+熟悉模型裁剪，量化，封装为接口
+```
+
+- Rust
 - Python
 - Reason
 - Julia

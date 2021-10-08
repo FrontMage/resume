@@ -71,15 +71,46 @@ Phone: 18627036360 (China)
    - Maintenance of AWS dynamoDB, RDS, Lambda, EC2, Kenisis etc.
 
 3. Research Engineer in Big data institution of Wuhan University till now
+
    - Neo4j, gstore, MySQL based billion level document analysis and visualize system
+
    ```
    Using Rust as backend and all the graph algorithms, wasm, and zoomcharts for frontend
    ```
+
    - CNN based image classification
+
    ```
    Mainly just stack convolution layers and pooling layers.
    Solves brain tumor diagnosis which is just a binary classification problem.
    Tring to detect tumor with YOLO, still working.
+   ```
+
+4. CTO in Chenwu Tech.
+
+   - tox and rust based distributed communication system
+
+   ```
+   Impl tox based p2p communication system.
+   ```
+
+   - tokio and rust based communication framework
+
+   ```
+   The framework is divided into frame layer, codec layer and router layer.
+   The frame layer is built on top of the bluetooth protocol and audio protocol.
+   ```
+
+   - bert based entity and event extraction
+
+   ```
+   Prepare the data, build and train the model.
+   ```
+
+   - resnet50 based smoke detection
+
+   ```
+   Prepare the data, build and train the model.
    ```
 
 ---

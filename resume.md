@@ -113,34 +113,94 @@ Phone: 18627036360 (China)
    Prepare the data, build and train the model.
    ```
 
+5. [Deeper network](https://shop.deeper.network/) Full stack engineer / Tech lead since 2021-06
+
+   - [Helium](https://www.helium.com/) project lead (Erlang)
+
+   ```
+   Optimize helium node signal, network transmission, block synchronization etc.
+   ```
+
+   - Rustdesk remote desktop relay server (Bash)
+
+   ```
+   Use wireguard to provide relay services for rustdesk remote desktop software.
+   Support 1000+ concurrent users on a single server.
+   ```
+
+   - Transparent proxy server (Golang)
+
+   ```
+   https/http transparent proxy, support tls decryption, traffic forwarding, content filtering, content modification, built-in JavaScript engine, support surge module
+   ```
+
+   - Deeper machine a distributed edge computing platform (Rust)
+
+   ```
+   Implement EVM-based smart contract scheduling, task distribution, node management and other functions
+   Implement edge computing nodes based on docker
+   ```
+
+   - [Deeper network VPN](https://dpn.deeper.network/)(Golang)
+
+   ```
+   iOS/Android/MacOS/Windows/Linux cross-platform VPN clients
+   gvisor-based traffic interception and relay center
+   clash-like rule engine and traffic forwarding mechanism
+   tunnel based DNS resolution to prevent DNS pollution
+   NAT traversal based P2P communication tunnel, UDP/TCP multi-protocol support
+   transparent proxy support for ad blocking and content filtering
+   ```
+
+   - [Deeper GPT](https://chat.deeper.network/)(Python)
+   ```
+   RAG based knowledge Q&A system, implement document chunking, vectorized storage, vector retrieval, LLM Q&A and other functions
+   Automatically import customer service chat records into the knowledge base for Q&A
+   ```
+
 ---
 
 ### Part-time projects
 
-- [dynamo.cli](https://github.com/FrontMage/dynamo.cli) query AWS dynamoDB with SQL in a prompt
+- [HelloGithub2zhihu](https://github.com/FrontMage/HelloGithub2zhihu) puppeteer based automation script
 
 ```
-Analisis and convert SQL to DynamoDB APIs.
-
-Multiple query task and prompt integration with goroutines.
+automatically sync starred github repos to zhihu as articles
 ```
 
-- [siteWarden](https://github.com/FrontMage/siteWarden) monitor website changes with Chrome puppeteer and image diff algorithm (This one is currently deleted because there is a leak of password)
+- [wowAutoFishing](https://github.com/FrontMage/wowAutoFishing) OpenCV and pyaudio based World of Warcraft auto fishing script
 
 ```
-Logging in websites with Chrome puppeteer.
-
-Sending an email with node-mailer.
+automatically fish in World of Warcraft by recognizing bobber splash sound and bobber position
 ```
 
-- [NSFW image rating](http://120.78.173.99:4000/tryout) a tensorflow and Yahoo's open-nsfw based nudity detection
+- [fishpond](https://github.com/FrontMage/fishpond) Python and web wechat based chat assistant
+```
+message sentiment analysis, auto reply, message statistics etc.
+```
+
+- [gesutre](https://github.com/FrontMage/gesture) OpenCV and Python based gesture recognition
 
 ```
-Gather training set with crawlers.
+hand gesture recognition to control mouse move, click, zoom etc.
+```
 
-Building model and training with Tensorflow.
+- [xinge push golang lib](https://github.com/FrontMage/xinge) Golang lib for Tencent Xinge push, adopted by Tencent officially
 
-Serving as HTTP API with flask and gunicorn.
+```
+Golang lib for Tencent Xinge push, adopted by Tencent officially
+```
+
+- [rock blog](https://github.com/FrontMage/rock) Rust based blog system, both frontend and backend are in Rust
+
+```
+A blog system with both frontend and backend written in Rust, frontend uses rust+wasm, backend uses actix-web
+```
+
+- [pm](https://github.com/FrontMage/pm) Process manager, similar to pm2
+
+```
+A process manager for node and other applications, similar to pm2, but in Golang
 ```
 
 ---
@@ -150,57 +210,81 @@ Serving as HTTP API with flask and gunicorn.
 - HTML/CSS/SCSS Layout and styling pack
 
 ```
-Read and write HTML pages, CSS frameworks, solve issues with different browsers.
+HTML5 semantic tags, CSS3 flexbox and grid layout, SCSS variables and mixins.
 ```
 
 - Javascript in browsers
 
 ```
-Working with built-in javascript API, MVC frameworks like React, Vue, Mithril etc.
+Expert in vanilla JavaScript, DOM manipulation, event handling, AJAX, Fetch API.
 
-Knows about web assembly, asm.js. Knows how to optimize javascript in browsers.
+Familiar with React, Vue.js, Mithril and other frontend frameworks.
+Understanding of web assembly, asm.js, and browser performance optimization.
 ```
 
 - Javascript in Node.js(Quiet different)
 
 ```
-Working with Express, KOA, and other HTTP routing frameworks.
+Familiar with Express, Koa, NestJS frameworks.
 
-Knows stream programing in node, async flow control, and event loops.
+Understanding of asynchronous programming, event loop, and performance optimization in Node.js.
 ```
 
 - Golang
 
 ```
-Working with Gin, Beego and other HTTP routing frameworks.
+Familiar with Gin, Echo frameworks.
 
-Working with tui-go, go-prompt and other go command line application frameworks.
+Understanding of goroutines, channels, and concurrency patterns in Go.
 
-Knows internals of slice, goroutine, channel, and interface.
+Familiar with Docker and Kubernetes for containerization and orchestration.
 
-Knows how to debug goroutine leaks, channel deadlocks.
+Familiar with AWS services like EC2, S3, Lambda for cloud deployments.
 
-Knows how to test, profile, benchmark go programs.
+Familiar with database interactions using GORM and sqlx.
 
-Knows how to interact with databases both SQL and NoSQL with go.
+Expert in low-level network programming using net package. Including TCP/UDP socket programming, TLS/SSL encryption, HTTP/2 protocol.
+
+Expert in cross-platform development using Go. Including file system operations, process management, signal handling, and system calls. Including mobile development with gomobile.
+
+Expert in performance optimization and profiling in Go. Including CPU and memory profiling, garbage collection tuning, and benchmarking.
 ```
 
 - Rust
 
 ```
-Graph algo
+Familiar with Actix-web, Rocket frameworks.
+
+Familiar with Tokio async runtime and async/await syntax.
+
+Familiar with EVM blockchain development using Parity Substrate.
+
+Familiar with WebAssembly development using wasm-bindgen and wasm-pack.
+
+Familiar with encryption and hashing using RustCrypto and ring crates.
 ```
 
+- Transformers
+
+```
+Familiar with Huggingface transformers library
+
+Familiar with BERT, GPT, T5 and other transformer architectures
+
+Familiar with data preprocessing and augmentation
+
+Familiar with model training, fine-tuning and evaluation
+```
+
+- Rust
 - Python
-
-```
-Tensorflow & keras & flask
-```
-
 - Reason
+- Julia
+- Golang
+- TypeScript
 
 ---
 
-### In case you wonder
+### Age
 
-I'm 29.
+33

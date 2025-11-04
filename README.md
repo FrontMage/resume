@@ -114,43 +114,84 @@
    通过烟雾图片标注，迁移学习，实现识别图中的白色和黑色烟雾，用于秸秆焚烧自动报警服务
    ```
 
+5. [Deeper network](https://shop.deeper.network/) 全栈工程师/技术主管 2021-06 至今
+
+   - [Helium](https://www.helium.com/)项目主管(Erlang)
+
+   ```
+   优化helium节点的信号，网络传输，区块同步等功能
+   ```
+
+   - Rustdesk 远程桌面relay服务器(Bash)
+
+   ```
+   通过wireguard实现一台机器支持1000+用户的relay服务器
+   ```
+
+   - 透明代理(Golang)
+
+   ```
+   https/http 透明代理，支持tls解密，流量转发，内容过滤，内容修改，内置JavaScript引擎，支持surge module
+   ```
+
+   - Deeper machine 一个分布式边缘计算平台(Rust)
+
+   ```
+   实现基于EVM的智能合约调度，任务分发，节点管理等功能
+   实现基于docker的边缘计算节点
+   ```
+
+   - [Deeper network VPN 客户端](https://dpn.deeper.network/)(Golang)
+
+   ```
+   iOS，Android，Windows，MacOS等多平台VPN客户端
+   基于gvisor的流量接管，中转中心
+   类clash的规则引擎，流量转发机制
+   基于隧道的防污染DNS解析
+   基于NAT穿透P2P通讯隧道，UDP/TCP多协议支持
+   透明代理功能，内置广告过滤和内容修改功能
+   ```
+
+   - [Deeper GPT](https://chat.deeper.network/)(Python)
+   ```
+   基于RAG的知识问答系统，实现文档分片，向量化存储，向量检索，LLM问答等功能
+   实现自动将客服聊天记录导入知识库，并用于问答
+   ```
+
 ---
 
 ### 业余项目
 
-- [dynamo.cli](https://github.com/FrontMage/dynamo.cli) 使用 SQL 操作 AWS DynamoDB
+- [HelloGithub2zhihu](https://github.com/FrontMage/HelloGithub2zhihu) 基于puppeteer的自动化脚本
 
 ```
-解析SQL并将其转化为DynamoDB API。
-
-用goroutine实现多查询并发以及命令行交互。
+实现将HelloGithub上的issue自动同步到知乎专栏
 ```
 
-- [siteWarden](https://github.com/FrontMage/siteWarden) 监控网站变化，利用图像差异和 Chrome puppeteer 实现 (由于有密码泄露，这个仓库暂时被删掉了)
+- [wowAutoFishing](https://github.com/FrontMage/wowAutoFishing) 基于OpenCV和pyaudio的魔兽世界自动钓鱼脚本
 
 ```
-通过Chrome puppeteer登录网站。
-
-如果图像差异超过阈值，则用邮件通知用户。
+实现音频信号处理，图像识别，模拟鼠标键盘操作
 ```
 
-- [NSFW image rating](http://120.78.173.99:4000/tryout) 基于 TensorFlow 和 Yahoo 的 open-NSFW 的鉴黄
-
+- [fishpond](https://github.com/FrontMage/fishpond) 基于Python和web微信的聊天助手
 ```
-通过爬虫过去训练材料。
-
-通过TensorFlow建立并训练模型。
-
-通过flask和gunicorn做成HTTP API。
+实现消息情感分析
 ```
 
-- [xinge push golang lib](https://github.com/FrontMage/xinge) 腾讯信鸽 push 的 golang lib，已被官方采纳
+- [gesutre](https://github.com/FrontMage/gesture) 基于OpenCV和Python的手势识别
+
+```
+实现手势控制鼠标移动，点击，zoom等功能
+```
+
+- [xinge push golang lib](https://github.com/FrontMage/xinge) 腾讯信鸽 push 的 golang lib，已被官方采纳
 
 ```
 golang实现的服务端API
 ```
 
-- [rock blog](https://github.com/FrontMage/rock) 前后端都是 rust 的  博客系统
+- [rock blog](https://github.com/FrontMage/rock) 前后端都是 rust 的 博客系统
 
 ```
 Rust后端，前端由Rust编译到webassembly，数据存在MongoDB中
@@ -202,6 +243,12 @@ Rust后端，前端由Rust编译到webassembly，数据存在MongoDB中
 了解如何测试，描述，和性能测试。
 
 了解go和主流SQL和NoSQL数据库交互。
+
+精通golang网络底层技术栈，包括TCP/UDP协议，HTTP协议，TLS协议等。
+
+精通golang跨平台编译和部署，包括移动平台。
+
+精通golang内存，CPU性能优化，二进制裁剪，依赖管理等。
 ```
 
 - Rust
@@ -210,6 +257,10 @@ Rust后端，前端由Rust编译到webassembly，数据存在MongoDB中
 熟悉tokio，future并发编程
 
 熟悉codec，frame，中间件，router的各种机制
+
+熟悉EVM合约开发
+
+熟悉Rust加解密相关算法和开发
 ```
 
 - Transformers
@@ -230,9 +281,11 @@ Rust后端，前端由Rust编译到webassembly，数据存在MongoDB中
 - Python
 - Reason
 - Julia
+- Golang
+- TypeScript
 
 ---
 
 ### 年龄
 
-29
+33

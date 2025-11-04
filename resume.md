@@ -113,7 +113,7 @@ Phone: 18627036360 (China)
    Prepare the data, build and train the model.
    ```
 
-5. [Deeper network](https://shop.deeper.network/) Full stack engineer / Tech lead since 2021-06
+5. [Deeper network](https://shop.deeper.network/) Full stack engineer / Tech lead since 2021-10
 
    - [Helium](https://www.helium.com/) project lead (Erlang)
 

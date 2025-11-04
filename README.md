@@ -88,7 +88,7 @@
    通过d3.js和echarts.js展示graph
    ```
 
-4. 武汉辰舞科技 CTO 2020-08 至今
+4. 武汉辰舞科技 CTO 2020-08 至 2021-06
 
    - 基于 tox 和 rust 的分布式通讯框架
 
@@ -114,7 +114,7 @@
    通过烟雾图片标注，迁移学习，实现识别图中的白色和黑色烟雾，用于秸秆焚烧自动报警服务
    ```
 
-5. [Deeper network](https://shop.deeper.network/) 全栈工程师/技术主管 2021-06 至今
+5. [Deeper network](https://shop.deeper.network/) 全栈工程师/技术主管 2021-10 至今
 
    - [Helium](https://www.helium.com/)项目主管(Erlang)
 

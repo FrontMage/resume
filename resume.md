@@ -1,290 +1,130 @@
-### Biguo Xin - Full stack egineer
+### Biguo Xin - Rust/EVM/Golang/Full stack egineer
 
 ![Screenshot](avatar.png)
 
-```
-I'm a self-motivated man who loves very much about programming.
-
-I do always learn before I invent so that my colleagues don't have to deal with "genius" code.
-
-Programming skills are like wands for wizards, they can help build many amazing things in a fantastic way.
-But unlike magic, programming is about simplicity, readability.
-
-And that's what I do, build awesome(hopefully) things with simple readable code.
-```
+[![Arctic Code Vault Contributor](https://img.shields.io/badge/Arctic%20Code%20Vault-Contributor-blue?logo=github&style=flat)](https://github.com/FrontMage)
 
 Email: xwhxbg@gmail.com
-Phone: 18627036360 (China)
+Phone: +86 186 2703 6360
 
 ---
 
 ### Education
 
-## Heilongjiang University Math Bachelor 2010-2015
+## Heilongjiang University — B.Sc. in Mathematics and Applied Mathematics (2010–2015)
 
-### Experiences
-
-1. Frontend engineer in HangbanGuanjia for 16 months.
-
-   - A single page web application based on Mithril framework
-
-   ```
-   Including routers, state management, session restore, complicated user-interactive components.
-   ```
-
-   - Maintenance of the company's Gitlab and Gitlab CIs
-
-   ```
-   Including docker related problems debug, Gitlab upgrading, moving issues.
-   ```
-
-   - Express & Node.js based backend for rendering pages and API rerouting
-
-   ```
-   Including request tracing, request caching, javascript and CSS packing.
-
-   Supporting dynamic module loading from the browser, typescript transpile.
-   ```
-
-2. Backend engineer in YueRanXinDong 7 months ago till now.
-
-   - Express & Node.js based API server for Neon, Meetstar, and other Apps
-
-   ```
-   Other than above, there is long async flow managing, composition with golang, python.
-
-   Interactive with DynamoDB with node.
-
-   Deploying with lambda, ELB, and containers.
-   ```
-
-   - Gin & Golang based API server for a Tinder-like App
-
-   ```
-   API routing with Gin.
-
-   Interactive with Postgres and DynamoDB, query and calculate GEO information with PostGIS.
-
-   Building and delivering golang applications automatically with Jenkins.
-   ```
-
-   - Maintenance of AWS dynamoDB, RDS, Lambda, EC2, Kenisis etc.
-
-3. Research Engineer in Big data institution of Wuhan University till now
-
-   - Neo4j, gstore, MySQL based billion level document analysis and visualize system
-
-   ```
-   Using Rust as backend and all the graph algorithms, wasm, and zoomcharts for frontend
-   ```
-
-   - CNN based image classification
-
-   ```
-   Mainly just stack convolution layers and pooling layers.
-   Solves brain tumor diagnosis which is just a binary classification problem.
-   Tring to detect tumor with YOLO, still working.
-   ```
-
-4. CTO in Chenwu Tech.
-
-   - tox and rust based distributed communication system
-
-   ```
-   Impl tox based p2p communication system.
-   ```
-
-   - tokio and rust based communication framework
-
-   ```
-   The framework is divided into frame layer, codec layer and router layer.
-   The frame layer is built on top of the bluetooth protocol and audio protocol.
-   ```
-
-   - bert based entity and event extraction
-
-   ```
-   Prepare the data, build and train the model.
-   ```
-
-   - resnet50 based smoke detection
-
-   ```
-   Prepare the data, build and train the model.
-   ```
-
-5. [Deeper network](https://shop.deeper.network/) Full stack engineer / Tech lead since 2021-10
-
-   - [Helium](https://www.helium.com/) project lead (Erlang)
-
-   ```
-   Optimize helium node signal, network transmission, block synchronization etc.
-   ```
-
-   - Rustdesk remote desktop relay server (Bash)
-
-   ```
-   Use wireguard to provide relay services for rustdesk remote desktop software.
-   Support 1000+ concurrent users on a single server.
-   ```
-
-   - Transparent proxy server (Golang)
-
-   ```
-   https/http transparent proxy, support tls decryption, traffic forwarding, content filtering, content modification, built-in JavaScript engine, support surge module
-   ```
-
-   - Deeper machine a distributed edge computing platform (Rust)
-
-   ```
-   Implement EVM-based smart contract scheduling, task distribution, node management and other functions
-   Implement edge computing nodes based on docker
-   ```
-
-   - [Deeper network VPN](https://dpn.deeper.network/)(Golang)
-
-   ```
-   iOS/Android/MacOS/Windows/Linux cross-platform VPN clients
-   gvisor-based traffic interception and relay center
-   clash-like rule engine and traffic forwarding mechanism
-   tunnel based DNS resolution to prevent DNS pollution
-   NAT traversal based P2P communication tunnel, UDP/TCP multi-protocol support
-   transparent proxy support for ad blocking and content filtering
-   ```
-
-   - [Deeper GPT](https://chat.deeper.network/)(Python)
-   ```
-   RAG based knowledge Q&A system, implement document chunking, vectorized storage, vector retrieval, LLM Q&A and other functions
-   Automatically import customer service chat records into the knowledge base for Q&A
-   ```
+### Tech Arsenal
+<div style="display:flex;flex-wrap:wrap;gap:8px;margin:16px 0">
+  <span style="background:#00C4B4;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🦀 Rust 5 yrs</span>
+  <span style="background:#00CED1;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🐹 Golang 8 yrs</span>
+  <span style="background:#F59E0B;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">⛓ EVM 4 yrs</span>
+  <span style="background:#8B5CF6;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🤖 RAG 4 yrs</span>
+</div>
 
 ---
 
-### Part-time projects
+### Professional Experience
 
-- [HelloGithub2zhihu](https://github.com/FrontMage/HelloGithub2zhihu) puppeteer based automation script
+5. Deeper Network — Full‑Stack Engineer / Tech Lead (2021.10 — present)
 
-```
-automatically sync starred github repos to zhihu as articles
-```
+- Helium project lead (Erlang): optimized node signal handling, network transport and block synchronization.
+- Transparent proxy (Golang): https/http transparent proxy with TLS interception, traffic forwarding, content filtering/modification, embedded JavaScript engine and support for Surge modules.
+- Deeper Machine (Rust): distributed edge computing platform — EVM-based smart-contract scheduling, task distribution and node management; Docker-based edge nodes.
+- Deeper Network VPN (Golang): cross‑platform clients (iOS, Android, Windows, macOS, Linux); gVisor-based traffic interception and relay, a Clash‑like rule engine, tunnel-based DNS to avoid pollution, NAT traversal P2P tunnels with UDP/TCP support, ad‑blocking and content filtering features.
+- Deeper GPT (Python): RAG-based knowledge Q&A system with document chunking, vector storage & retrieval, and LLM-driven QA; automated ingestion of support chats into the knowledge base.
 
-- [wowAutoFishing](https://github.com/FrontMage/wowAutoFishing) OpenCV and pyaudio based World of Warcraft auto fishing script
+4. Chenwu Technology — CTO (2020.08 — 2021.06)
 
-```
-automatically fish in World of Warcraft by recognizing bobber splash sound and bobber position
-```
+- tox + Rust distributed communication: P2P covert communication and transport.
+- Tokio + Rust communication framework: codec/frame/session/router layers; audio-based JSON/binary transfer and driver adaptation for HiSilicon chips to support low‑power long‑lived Bluetooth connections.
+- Signal processing / data hiding: FFT/IFFT operators for watermarking, optimized for Armv8 (SIMD) and NVIDIA GPUs (CUDA).
 
-- [fishpond](https://github.com/FrontMage/fishpond) Python and web wechat based chat assistant
-```
-message sentiment analysis, auto reply, message statistics etc.
-```
+3. Wuhan University — Full‑Stack Engineer, Big Data Research Institute (2018.08 — 2020.08)
 
-- [gesutre](https://github.com/FrontMage/gesture) OpenCV and Python based gesture recognition
+- Data migration & graph projects: pipeline from MySQL → RDF → graph databases (e.g., Neo4j); implemented graph algorithms and business query APIs using SPARQL to compute indegree/outdegree, density, distance, circles, etc.
+- Frontend visualization: D3.js and ECharts-based graph visualizations.
 
-```
-hand gesture recognition to control mouse move, click, zoom etc.
-```
+2. YueRanXinDong — Backend Engineer (2017.08 — 2018.04)
 
-- [xinge push golang lib](https://github.com/FrontMage/xinge) Golang lib for Tencent Xinge push, adopted by Tencent officially
+- Node/Express backends and async workflow management; integrations with Go and Python microservices; DynamoDB interaction and deployments on Lambda/ELB/containers.
+- Gin + Go backend for social apps: GORM/Postgres integration, PostGIS for geospatial queries, Jenkins-based CI/CD.
 
-```
-Golang lib for Tencent Xinge push, adopted by Tencent officially
-```
+1. HangbanGuanjia — Frontend Engineer (2016.05 — 2017.07)
 
-- [rock blog](https://github.com/FrontMage/rock) Rust based blog system, both frontend and backend are in Rust
-
-```
-A blog system with both frontend and backend written in Rust, frontend uses rust+wasm, backend uses actix-web
-```
-
-- [pm](https://github.com/FrontMage/pm) Process manager, similar to pm2
-
-```
-A process manager for node and other applications, similar to pm2, but in Golang
-```
+- Single-page application built on Mithril: routing, state management, session restore and complex interactive components.
+- Maintained company GitLab and GitLab CI (upgrades, debugging, migrations).
+- Server-side rendering and API gateway with Express/Node: JS/CSS bundling, request tracing and caching; dynamic module loading and TypeScript compilation pipelines.
 
 ---
 
 ### Skills
 
-- HTML/CSS/SCSS Layout and styling pack
+#### Rust
 
-```
-HTML5 semantic tags, CSS3 flexbox and grid layout, SCSS variables and mixins.
-```
+- Comfortable with Tokio and asynchronous/futures programming
+- Experience designing codecs, frames, middleware and routers
+- EVM smart contract development experience
+- Cryptography-related implementations and practical usage
+- FFI with C/C++ (bindgen) and CPU-level optimizations (SIMD, inline assembly)
 
-- Javascript in browsers
+#### Golang
 
-```
-Expert in vanilla JavaScript, DOM manipulation, event handling, AJAX, Fetch API.
+- Skilled with Gin, Beego and common HTTP middleware patterns
+- Built CLI tools (tui-go, go-prompt) and cross‑platform binaries
+- Deep understanding of slices, goroutines, channels and interfaces
+- Debugging goroutine leaks and channel deadlocks; profiling and benchmarks
+- Integration with SQL/NoSQL (Postgres, MySQL, DynamoDB)
+- Low‑level networking (TCP/UDP/HTTP/TLS) and mobile cross‑compilation
 
-Familiar with React, Vue.js, Mithril and other frontend frameworks.
-Understanding of web assembly, asm.js, and browser performance optimization.
-```
+#### Transformers / ML
 
-- Javascript in Node.js(Quiet different)
+- Familiar with Hugging Face Transformers, BERT, ResNet and other models
+- Data preprocessing, augmentation, hyperparameter tuning and evaluation
+- Model pruning, quantization and serving as APIs
 
-```
-Familiar with Express, Koa, NestJS frameworks.
+#### HTML / CSS / SCSS
 
-Understanding of asynchronous programming, event loop, and performance optimization in Node.js.
-```
+- Semantic HTML, responsive layout, CSS architecture and cross‑browser fixes
 
-- Golang
+#### JavaScript (browser)
 
-```
-Familiar with Gin, Echo frameworks.
+- Native DOM/API expertise and experience with React/Vue/Mithril
+- Knowledge of WebAssembly and browser performance optimizations
 
-Understanding of goroutines, channels, and concurrency patterns in Go.
+#### JavaScript (Node.js)
 
-Familiar with Docker and Kubernetes for containerization and orchestration.
+- Experienced with Express, Koa and server-side middleware patterns
+- Comfortable with streams, async control flow and event loop internals
 
-Familiar with AWS services like EC2, S3, Lambda for cloud deployments.
+#### Other languages & tools
 
-Familiar with database interactions using GORM and sqlx.
+<div style="display:flex;flex-wrap:wrap;gap:8px;margin:8px 0">
+  <span style="background:#DEA584;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🦀 Rust</span>
+  <span style="background:#00CED1;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🐹 Golang</span>
+  <span style="background:#FFB86B;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🐍 Python</span>
+  <span style="background:#F97316;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">✨ TypeScript</span>
+  <span style="background:#6EE7B7;color:#000;padding:4px 10px;border-radius:6px;font-size:13px">🧠 Transformers</span>
+  <span style="background:#A78BFA;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">💡 Reason</span>
+  <span style="background:#60A5FA;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🔢 Julia</span>
+</div>
 
-Expert in low-level network programming using net package. Including TCP/UDP socket programming, TLS/SSL encryption, HTTP/2 protocol.
+---
 
-Expert in cross-platform development using Go. Including file system operations, process management, signal handling, and system calls. Including mobile development with gomobile.
+### Projects (side / personal)
 
-Expert in performance optimization and profiling in Go. Including CPU and memory profiling, garbage collection tuning, and benchmarking.
-```
-
-- Rust
-
-```
-Familiar with Actix-web, Rocket frameworks.
-
-Familiar with Tokio async runtime and async/await syntax.
-
-Familiar with EVM blockchain development using Parity Substrate.
-
-Familiar with WebAssembly development using wasm-bindgen and wasm-pack.
-
-Familiar with encryption and hashing using RustCrypto and ring crates.
-```
-
-- Transformers
-
-```
-Familiar with Huggingface transformers library
-
-Familiar with BERT, GPT, T5 and other transformer architectures
-
-Familiar with data preprocessing and augmentation
-
-Familiar with model training, fine-tuning and evaluation
-```
-
-- Rust
-- Python
-- Reason
-- Julia
-- Golang
-- TypeScript
+- [fishpond](https://github.com/FrontMage/fishpond): Python & web‑WeChat chat assistant — message sentiment analysis, automated replies and statistics.
+- [gesture](https://github.com/FrontMage/gesture): OpenCV & Python gesture recognition for mouse control (move, click, zoom).
+- [xinge](https://github.com/FrontMage/xinge): Go library for Tencent Xinge push (officially adopted).
+- [HelloGithub2zhihu](https://github.com/FrontMage/HelloGithub2zhihu): Puppeteer automation to sync starred GitHub repos to Zhihu articles.
+- [wowAutoFishing](https://github.com/FrontMage/wowAutoFishing): OpenCV + PyAudio script to automate fishing in World of Warcraft by detecting bobber splash sounds and position.
+- [rock](https://github.com/FrontMage/rock): Rust full‑stack blog system (frontend: Rust+WASM, backend: actix‑web).
+- [pm](https://github.com/FrontMage/pm): Process manager in Go (similar to pm2).
 
 ---
 
 ### Age
 
 33
+
+---
+- Semantic HTML, responsive layout, CSS architecture and cross‑browser fixes

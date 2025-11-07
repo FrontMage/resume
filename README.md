@@ -52,17 +52,15 @@
   实现Armv8下的高性能FFT/IFFT算法，包括SIMD优化  
   实现NVidia GPU下的FFT/IFFT算法，包括CUDA优化
 
-已折叠前三段工作经历，点击展开查看：
-<details>
+───
 
-**1. 前端工程师　航班管家　2016.05–2017.07**  
-- **基于 Mithril 框架的单页 web 应用**  
-  包括路由，状态管理，会话恢复，复杂交互组件。  
-- **维护公司的 Gitlab 和 Gitlab CI**  
-  包括对应问题的debug，Gitlab的升级和迁移等。  
-- **基于 Express & Node.js 的页面渲染，API 转发**  
-  包括JS和CSS打包，请求追踪，请求缓存。  
-  支持JS动态打包，typescript动态编译打包。  
+**3. 全栈工程师　武汉大学大数据研究院　2018.08–2020.08**  
+- **数据清洗，MySQL⇒图数据库**  
+  MySQL数据转RDF，RDF导入图数据库，例如neo4j  
+- **图数据库上算法实现，业务查询接口**  
+  通过sparql查询indgree，outdegree，density，distance，circle等图属性  
+- **前端页面**  
+  通过d3.js和echarts.js展示graph
 
 ───
 
@@ -77,16 +75,15 @@
 - **维护 AWS dynamoDB, RDS, Lambda, EC2, Kinesis 等**  
 
 ───
+**1. 前端工程师　航班管家　2016.05–2017.07**  
+- **基于 Mithril 框架的单页 web 应用**  
+  包括路由，状态管理，会话恢复，复杂交互组件。  
+- **维护公司的 Gitlab 和 Gitlab CI**  
+  包括对应问题的debug，Gitlab的升级和迁移等。  
+- **基于 Express & Node.js 的页面渲染，API 转发**  
+  包括JS和CSS打包，请求追踪，请求缓存。  
+  支持JS动态打包，typescript动态编译打包。  
 
-**3. 全栈工程师　武汉大学大数据研究院　2018.08–2020.08**  
-- **数据清洗，MySQL⇒图数据库**  
-  MySQL数据转RDF，RDF导入图数据库，例如neo4j  
-- **图数据库上算法实现，业务查询接口**  
-  通过sparql查询indgree，outdegree，density，distance，circle等图属性  
-- **前端页面**  
-  通过d3.js和echarts.js展示graph
-
-</details>
 
 ---
 

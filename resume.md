@@ -59,6 +59,11 @@ Phone: +86 186 2703 6360
 
 ### Skills
 
+#### AI Workflow / Vibe Coding
+
+- Expert in vibe coding to rapidly ship with LLM agents and toolchains.
+- Build AI-based workflows for teams: long-term project tracking, MCP setup, and AI skills prompt development.
+
 #### Rust
 
 - Comfortable with Tokio and asynchronous/futures programming

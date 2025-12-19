@@ -89,6 +89,11 @@
 
 ### 技能
 
+#### AI 工作流 / Vibe Coding
+
+- 精通 vibe coding，利用 LLM agent 与工具链快速上线功能。
+- 精通搭建 AI 工作流：长期项目追踪、MCP 架构落地、AI Skills Prompt 设计与交付。
+
 #### Rust
 
 - 熟悉 tokio 与 futures 的并发编程模式
@@ -183,4 +188,3 @@ golang实现的服务端API
 
 邮箱: xwhxbg@gmail.com
 电话: 18627036360 (中国)
-

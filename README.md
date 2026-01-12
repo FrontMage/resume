@@ -21,7 +21,14 @@
 
 ### 工作经验
 
-**5. [Deeper Network](https://shop.deeper.network/)　全栈工程师/技术主管　2021.10–至今**  
+**6. [群计](https://crowdcomputed.com/)　后端工程师 2025.12-至今**
+- **计算节点/计算任务分发服务（Golang）**
+  优化计算节点的可用性，WS连接可靠性，error透传以及反向排查能力
+  优化服务端重启/重新部署策略，最低化downtime
+  设计和实现工作空间分发策略，最低化切换工作空间和抖动
+  设计和实现基于MCP和skills的运维，开发，debug流程  
+
+**5. [Deeper Network](https://shop.deeper.network/)　全栈工程师/技术主管　2021.10–2025.11**
 - **Helium项目主管（Erlang）**  
   优化helium节点的信号，网络传输，区块同步等功能  
 - **透明代理（Golang）**  

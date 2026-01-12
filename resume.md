@@ -25,7 +25,13 @@ Phone: +86 186 2703 6360
 
 ### Professional Experience
 
-5. Deeper Network — Full‑Stack Engineer / Tech Lead (2021.10 — present)
+6. QunJi (crowdcomputed.com) — Backend Engineer (2025.12 — present)
+
+- Compute nodes / task dispatch (Golang): improved node availability, WebSocket reliability, error propagation, and reverse debugging.
+- Reduced downtime with restart/redeploy strategies; designed workspace distribution to minimize switching jitter.
+- Built MCP- and skills-based workflows for ops, development, and debugging.
+
+5. Deeper Network — Full‑Stack Engineer / Tech Lead (2021.10 — 2025.11)
 
 - Helium project lead (Erlang): optimized node signal handling, network transport and block synchronization.
 - Transparent proxy (Golang): https/http transparent proxy with TLS interception, traffic forwarding, content filtering/modification, embedded JavaScript engine and support for Surge modules.

@@ -32,6 +32,7 @@ Phone: +86 186 2703 6360
 - Deeper Machine (Rust): distributed edge computing platform — EVM-based smart-contract scheduling, task distribution and node management; Docker-based edge nodes.
 - Deeper Network VPN (Golang): cross‑platform clients (iOS, Android, Windows, macOS, Linux); gVisor-based traffic interception and relay, a Clash‑like rule engine, tunnel-based DNS to avoid pollution, NAT traversal P2P tunnels with UDP/TCP support, ad‑blocking and content filtering features.
 - Deeper GPT (Python): RAG-based knowledge Q&A system with document chunking, vector storage & retrieval, and LLM-driven QA; automated ingestion of support chats into the knowledge base.
+- Backend architecture & delivery: designed/maintained high-concurrency HTTP/TCP services with profiling/benchmarks (pprof/bench); implemented zero-downtime releases and gray rollout strategies.
 
 4. Chenwu Technology — CTO (2020.08 — 2021.06)
 
@@ -78,8 +79,9 @@ Phone: +86 186 2703 6360
 - Built CLI tools (tui-go, go-prompt) and cross‑platform binaries
 - Deep understanding of slices, goroutines, channels and interfaces
 - Debugging goroutine leaks and channel deadlocks; profiling and benchmarks
-- Integration with SQL/NoSQL (Postgres, MySQL, DynamoDB)
+- Integration with SQL/NoSQL (Postgres, MySQL, Redis, MongoDB, DynamoDB)
 - Low‑level networking (TCP/UDP/HTTP/TLS) and mobile cross‑compilation
+- Containerization and microservices with Docker/K8s: delivery, orchestration, deployment, ops
 
 #### Transformers / ML
 

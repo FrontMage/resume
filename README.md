@@ -39,6 +39,8 @@
 - **Deeper GPT（Python）**  
   基于RAG的知识问答系统，实现文档分片，向量化存储，向量检索，LLM问答等功能  
   实现自动将客服聊天记录导入知识库，并用于问答  
+- **后端架构与发布**  
+  设计/维护高并发 HTTP/TCP 服务，压测与性能优化（pprof/bench）；零停机发布与灰度方案落地
 
 ───
 
@@ -110,8 +112,9 @@
 - 深入理解 slice、goroutine、channel 与 interface 的实现细节
 - 能诊断与修复 goroutine 泄露、channel 死锁等并发问题
 - 熟悉测试、基准测试与性能剖析流程
-- 与主流 SQL/NoSQL（Postgres、MySQL、DynamoDB 等）集成经验
+- 与主流 SQL/NoSQL（Postgres、MySQL、Redis、MongoDB、DynamoDB 等）集成经验
 - 精通网络协议栈（TCP/UDP/HTTP/TLS）与跨平台编译部署
+- 容器化与微服务经验：Docker/K8s 交付、服务编排、部署与运维
 
 #### Transformers / ML
 

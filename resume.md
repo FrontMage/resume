@@ -64,6 +64,14 @@ Phone: +86 186 2703 6360
 
 ---
 
+### Open Source Contributions (FEX / box64)
+
+- Feb 2026: Merged FEX PR [#5289](https://github.com/FEX-Emu/FEX/pull/5289), fixing x87 FCOM/FCOMP st(i) decoding and dispatch-table sizing to eliminate SIGILL/incorrect-dispatch paths in 32-bit guest workloads on Wine+FEX (ARM64).
+- Feb 2026: Merged box64 PR [#3513](https://github.com/ptitSeb/box64/pull/3513), correcting BOX32 ARPL (0x63) semantics in both interpreter and ARM64 dynarec, and adding a regression test; this drove closure of issue [#2739](https://github.com/ptitSeb/box64/issues/2739).
+- Feb 2026: Investigated FEX issue [#5328](https://github.com/FEX-Emu/FEX/issues/5328) with reproducible traces, isolating an executable-memory tracking gap (`MEM_MAPPED + PAGE_EXECUTE_READ` leading to NoExec/C0000005 loops), helping triage a high-impact memory-mapping bug.
+
+---
+
 ### Skills
 
 #### AI Workflow / Vibe Coding

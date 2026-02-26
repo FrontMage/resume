@@ -96,6 +96,14 @@
 
 ---
 
+### 开源贡献（FEX / box64）
+
+- 2026 年 2 月，向 FEX 提交并合并 PR [#5289](https://github.com/FEX-Emu/FEX/pull/5289)：修复 x87 FCOM/FCOMP st(i) 解码与分发表问题，解决 32-bit 程序在 Wine+FEX（ARM64）场景下的 SIGILL / 错误分发问题。  
+- 2026 年 2 月，向 box64 提交并合并 PR [#3513](https://github.com/ptitSeb/box64/pull/3513)：修复 BOX32 中 ARPL(0x63) 语义（解释器 + ARM64 dynarec），并补充回归测试，推动问题 [#2739](https://github.com/ptitSeb/box64/issues/2739) 关闭。  
+- 2026 年 2 月，在 FEX 问题 [#5328](https://github.com/FEX-Emu/FEX/issues/5328) 中提供完整复现与日志链路，定位 `MEM_MAPPED + PAGE_EXECUTE_READ` 场景下执行区域追踪异常（NoExec/C0000005 循环），协助社区排查关键内存映射问题。  
+
+---
+
 ### 技能
 
 #### AI 工作流 / Vibe Coding

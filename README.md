@@ -1,208 +1,98 @@
-### 辛必果 - Rust/EVM/Golang/全栈工程师
+### 辛必果
 
-![Screenshot](avatar.png)
-
-
-[![Arctic Code Vault Contributor](https://img.shields.io/badge/Arctic%20Code%20Vault-Contributor-blue?logo=github&style=flat)](https://github.com/FrontMage)
+系统 / 基础设施工程师  
+邮箱：xwhxbg@gmail.com  
+GitHub：https://github.com/FrontMage  
+所在地：中国
+年龄：34
 
 ---
 
-### 教育经历
+### 个人简介
 
-## 黑龙江大学 数学与应用数学学士 2010-2015
-
-### Tech Arsenal
-<div style="display:flex;flex-wrap:wrap;gap:8px;margin:16px 0">
-  <span style="background:#00C4B4;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🦀 Rust 5ys</span>
-  <span style="background:#00CED1;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🐹 Golang 8ys</span>
-  <span style="background:#F59E0B;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">⛓ EVM 4ys</span>
-  <span style="background:#8B5CF6;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🤖 RAG 4ys</span>
-</div>
-
-### 工作经验
-
-**6. [群计](https://crowdcomputed.com/)　后端工程师 2025.12-至今**
-- **计算节点/计算任务分发服务（Golang）**
-  优化计算节点的可用性，WS连接可靠性，error透传以及反向排查能力
-  优化服务端重启/重新部署策略，最低化downtime
-  设计和实现工作空间分发策略，最低化切换工作空间和抖动
-  设计和实现基于MCP和skills的运维，开发，debug流程  
-
-**5. [Deeper Network](https://shop.deeper.network/)　全栈工程师/技术主管　2021.10–2025.11**
-- **Helium项目主管（Erlang）**  
-  优化helium节点的信号，网络传输，区块同步等功能  
-- **透明代理（Golang）**  
-  https/http 透明代理，支持tls解密，流量转发，内容过滤，内容修改，内置JavaScript引擎，支持surge module  
-- **Deeper Machine 分布式边缘计算平台（Rust）**  
-  实现基于EVM的智能合约调度，任务分发，节点管理等功能  
-  实现基于docker的边缘计算节点  
-- **Deeper Network VPN 客户端（Golang）**  
-  iOS，Android，Windows，MacOS等多平台VPN客户端  
-  基于gvisor的流量接管，中转中心  
-  类clash的规则引擎，流量转发机制  
-  基于隧道的防污染DNS解析  
-  基于NAT穿透P2P通讯隧道，UDP/TCP多协议支持  
-  透明代理功能，内置广告过滤和内容修改功能  
-- **Deeper GPT（Python）**  
-  基于RAG的知识问答系统，实现文档分片，向量化存储，向量检索，LLM问答等功能  
-  实现自动将客服聊天记录导入知识库，并用于问答  
-- **后端架构与发布**  
-  设计/维护高并发 HTTP/TCP 服务，压测与性能优化（pprof/bench）；零停机发布与灰度方案落地
-
-───
-
-**4. 武汉辰舞科技　CTO　2020.08–2021.06**  
-- **基于 tox 和 rust 的分布式通讯框架**  
-  实现基于tox的分布式隐蔽通讯，点对点传输  
-- **基于 tokio 和 rust 的 codec 通讯框架**  
-  实现各种协议上的codec frame，session和router机制，通过声音传输JSON/二进制数据  
-  海思芯片下的驱动适配，实现低功耗长连接蓝牙通讯  
-- **基于FFT和IFFT算子的图像数据隐藏，水印数据隐藏**  
-  实现Armv8下的高性能FFT/IFFT算法，包括SIMD优化  
-  实现NVidia GPU下的FFT/IFFT算法，包括CUDA优化
-
-───
-
-**3. 全栈工程师　武汉大学大数据研究院　2018.08–2020.08**  
-- **数据清洗，MySQL⇒图数据库**  
-  MySQL数据转RDF，RDF导入图数据库，例如neo4j  
-- **图数据库上算法实现，业务查询接口**  
-  通过sparql查询indgree，outdegree，density，distance，circle等图属性  
-- **前端页面**  
-  通过d3.js和echarts.js展示graph
-
-───
-
-**2. 后端工程师　悦然心动　2017.08–2018.04**  
-- **基于 Express & Node.js 的后端 API**  
-  除此之外还有复杂异步流程管理，以及golang和Python实现的部分功能。  
-  用node与DynamoDB交互。  
-  部署在lambda，ELB和容器内。  
-- **基于 Gin & Golang 的社交应用后端 AI**  
-  基于GORM与postgres交互，以及使用postGIS计算地理位置。  
-  使用Jenkins编译并发布golang应用。  
-- **维护 AWS dynamoDB, RDS, Lambda, EC2, Kinesis 等**  
-
-───
-**1. 前端工程师　航班管家　2016.05–2017.07**  
-- **基于 Mithril 框架的单页 web 应用**  
-  包括路由，状态管理，会话恢复，复杂交互组件。  
-- **维护公司的 Gitlab 和 Gitlab CI**  
-  包括对应问题的debug，Gitlab的升级和迁移等。  
-- **基于 Express & Node.js 的页面渲染，API 转发**  
-  包括JS和CSS打包，请求追踪，请求缓存。  
-  支持JS动态打包，typescript动态编译打包。  
-
+9 年以上工程经验，长期专注于 Rust、Golang、分布式系统、网络栈与运行时调试。主导和参与过 VPN、透明代理、边缘计算、高并发后端等系统的设计、实现与稳定性优化，覆盖性能调优、发布安全、问题排查与生产运维闭环。向 FEX 和 box64 上游贡献过兼容性与指令语义修复，也参与过 Wine + FEX 场景下可执行内存追踪问题的定位。与此同时，具备 AI 辅助研发工作流设计能力，能够围绕长期指令、可复用 skills、MCP 工具接入与验证驱动执行，构建可重复、可调试的工程流程。最擅长的方向是底层问题定位、兼容性修复，以及把复杂系统做得更稳定、更可观测。
 
 ---
 
 ### 开源贡献（FEX / box64）
 
-- 2026 年 2 月，向 FEX 提交并合并 PR [#5289](https://github.com/FEX-Emu/FEX/pull/5289)：修复 x87 FCOM/FCOMP st(i) 解码与分发表问题，解决 32-bit 程序在 Wine+FEX（ARM64）场景下的 SIGILL / 错误分发问题。  
-- 2026 年 2 月，向 box64 提交并合并 PR [#3513](https://github.com/ptitSeb/box64/pull/3513)：修复 BOX32 中 ARPL(0x63) 语义（解释器 + ARM64 dynarec），并补充回归测试，推动问题 [#2739](https://github.com/ptitSeb/box64/issues/2739) 关闭。  
-- 2026 年 2 月，在 FEX 问题 [#5328](https://github.com/FEX-Emu/FEX/issues/5328) 中提供完整复现与日志链路，定位 `MEM_MAPPED + PAGE_EXECUTE_READ` 场景下执行区域追踪异常（NoExec/C0000005 循环），协助社区排查关键内存映射问题。  
+- **FEX PR #5289**：修复 x87 FCOM/FCOMP `st(i)` 解码与分发表尺寸问题，消除 32-bit guest 在 Wine + FEX（ARM64）路径中的 SIGILL 与错误分发问题。  
+  https://github.com/FEX-Emu/FEX/pull/5289
+- **box64 PR #3513**：修复 BOX32 中 ARPL（`0x63`）在解释器与 ARM64 dynarec 中的语义实现，补充回归测试，并推动真实兼容性问题关闭。  
+  https://github.com/ptitSeb/box64/pull/3513
+- **FEX issue #5328 排查**：通过复现链路与日志分析，将问题收敛到 `MEM_MAPPED + PAGE_EXECUTE_READ` 场景下的可执行内存追踪缺口，协助定位 Windows 兼容路径中的高影响 NoExec / `C0000005` 循环问题。  
+  https://github.com/FEX-Emu/FEX/issues/5328
 
 ---
 
-### 技能
+### 工作经历
 
-#### AI 工作流 / Vibe Coding
+**Deeper Network**  
+软件工程师 / 技术主管｜2021 年 10 月 - 至今
 
-- 精通 vibe coding，利用 LLM agent 与工具链快速上线功能。
-- 精通搭建 AI 工作流：长期项目追踪、MCP 架构落地、AI Skills Prompt 设计与交付。
+- 负责网络与平台相关系统的设计和交付，覆盖透明代理、VPN 客户端、边缘计算平台与高并发后端服务。
+- 构建 iOS、Android、Windows、macOS、Linux 多平台 VPN 与流量转发系统，涉及 gVisor 流量接管、NAT 穿透、隧道 DNS 与基于规则的转发机制。
+- 设计并实现透明 HTTP/HTTPS 代理基础设施，支持 TLS 解密、流量修改、内容过滤与内嵌 JavaScript 规则执行。
+- 使用 Rust 构建分布式边缘计算平台，完成基于 EVM 的调度、任务分发、节点管理与 Docker 化执行。
+- 通过 profiling、benchmark、零停机发布与灰度策略，提升高并发 HTTP/TCP 服务的发布安全性与线上稳定性。
+- 构建内部 RAG 知识问答系统，实现文档导入、向量检索与 LLM 辅助问答，服务支持与运维场景。
 
-#### Rust
+**武汉辰舞科技**  
+CTO｜2020 年 8 月 - 2021 年 6 月
 
-- 熟悉 tokio 与 futures 的并发编程模式
-- 精通 codec、frame、middleware 与 router 的设计与实现
-- 熟悉 EVM 合约开发流程与工具链
-- 常见加解密算法实现与工程实践
-- 熟练使用 FFI / bindgen 在 Rust 与 C/C++ 之间互操作
-- 熟悉与 CPU 交互的优化（SIMD、inline assembly）
+- 基于 Rust、Tokio 与 tox 构建分布式通信运行时，实现点对点与隐蔽传输链路，以及 codec、frame、session、router 等基础层。
+- 实现通过音频通道传输 JSON / 二进制数据，并完成海思芯片相关驱动适配，支持低功耗长连接蓝牙通信。
+- 对 FFT / IFFT 信号处理与水印链路做性能优化，覆盖 Armv8 SIMD 与 NVIDIA CUDA 两类执行平台。
 
-#### Golang
+**武汉大学大数据研究院**  
+软件工程师｜2018 年 8 月 - 2020 年 8 月
 
-- 熟悉 Gin、Beego 等 HTTP 框架与中间件设计
-- 熟练构建命令行工具（tui-go、go-prompt）
-- 深入理解 slice、goroutine、channel 与 interface 的实现细节
-- 能诊断与修复 goroutine 泄露、channel 死锁等并发问题
-- 熟悉测试、基准测试与性能剖析流程
-- 与主流 SQL/NoSQL（Postgres、MySQL、Redis、MongoDB、DynamoDB 等）集成经验
-- 精通网络协议栈（TCP/UDP/HTTP/TLS）与跨平台编译部署
-- 容器化与微服务经验：Docker/K8s 交付、服务编排、部署与运维
+- 构建 MySQL 到 RDF 再到图数据库（如 Neo4j）的数据处理链路。
+- 基于 SPARQL 实现图查询与图分析接口，支持入度、出度、密度、距离、环等图属性计算。
+- 使用 D3.js 与 ECharts 交付图可视化页面，服务研究与业务查询场景。
 
-#### Transformers / ML
+**悦然心动**  
+后端工程师｜2017 年 8 月 - 2018 年 4 月
 
-- 熟悉 BERT、ResNet 等主流 NLP / CV 模型
-- 数据清洗、采样、归一化与训练集构建经验
-- 超参数调优与模型评估指标（precision/recall/F1 等）
-- 模型裁剪、量化与封装为服务接口
+- 使用 Node.js 与 Golang 开发后端服务，处理复杂异步流程，并与 Python 服务协作。
+- 基于 Gin、GORM、PostgreSQL 与 PostGIS 构建社交应用后端，并通过 Jenkins 与 AWS 基础设施支撑交付。
 
-#### HTML / CSS / SCSS
+**航班管家**  
+前端工程师｜2016 年 5 月 - 2017 年 7 月
 
-- 能读写语义 HTML，并构建响应式布局与组件样式
-- 熟悉常见 CSS 架构与跨浏览器兼容处理
-
-#### JavaScript (browser)
-
-- 熟悉原生 DOM/API 与主流框架（React / Vue / Mithril）
-- 了解 WebAssembly / asm.js 的基本原理与应用场景
-- 浏览器端性能优化与资源加载策略
-
-#### JavaScript (Node.js)
-
-- 熟悉 Express、Koa 等服务端框架与中间件链路
-- 熟悉流式编程、事件循环与异步控制流
-
-#### 其他语言与工具
-
-<div style="display:flex;flex-wrap:wrap;gap:8px;margin:8px 0">
-  <span style="background:#DEA584;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🦀 Rust</span>
-  <span style="background:#00CED1;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🐹 Golang</span>
-  <span style="background:#FFB86B;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🐍 Python</span>
-  <span style="background:#F97316;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">✨ TypeScript</span>
-  <span style="background:#6EE7B7;color:#000;padding:4px 10px;border-radius:6px;font-size:13px">🧠 Transformers</span>
-  <span style="background:#A78BFA;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">💡 Reason</span>
-  <span style="background:#60A5FA;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🔢 Julia</span>
-</div>
+- 基于 Mithril 构建单页应用，负责路由、状态管理、会话恢复与复杂交互组件。
+- 维护 GitLab 与 GitLab CI，承担升级、迁移与生产问题排查。
+- 使用 Express / Node.js 实现服务端渲染与 API 网关，覆盖打包、缓存、请求追踪与动态 TypeScript 编译。
 
 ---
 
-### 业余项目
+### 精选技能
 
-- [fishpond](https://github.com/FrontMage/fishpond) 基于Python和web微信的聊天助手
-```
-实现消息情感分析
-```
+**AI 工作流**  
+擅长设计面向 agent 的研发工作流，包括明确任务上下文、沉淀长期指令、封装可复用 skills、接入 MCP 工具链，以及基于验证的执行闭环。能够把模糊需求收敛为可重复、可调试、可持续演进的开发、运维与回归处理流程。
 
-- [gesutre](https://github.com/FrontMage/gesture) 基于OpenCV和Python的手势识别
+**语言**  
+Rust、Golang、Python、TypeScript、JavaScript、Erlang
 
-```
-实现手势控制鼠标移动，点击，zoom等功能
-```
+**系统能力**  
+Linux、分布式系统、网络编程、VPN / 代理基础设施、Docker、Kubernetes、可观测性、性能剖析、基准测试、零停机发布
 
-- [xinge push golang lib](https://github.com/FrontMage/xinge) 腾讯信鸽 push 的 golang lib，已被官方采纳
-
-```
-golang实现的服务端API
-```
+**专项能力**  
+Wine、FEX、box64、ARM64 兼容层、运行时调试、FFI、SIMD、CUDA、基于 EVM 的调度系统
 
 ---
 
-### 年龄
+### 精选项目
 
-33
+- **[winlator-llm](https://github.com/FrontMage/winlator-llm)**：基于 Winlator fork 打造的 LLM workflow 产品，把底层运行时调优、兼容性开关、图形栈切换和环境变量配置产品化为更易用、更可调试的用户侧系统。
+- **[rock](https://github.com/FrontMage/rock)**：基于 Rust 的全栈博客系统，前端使用 Rust + WASM，后端使用 `actix-web`。
+- **[pm](https://github.com/FrontMage/pm)**：使用 Golang 开发的进程管理工具，可作为轻量级 `pm2` 替代方案。
+- **[xinge](https://github.com/FrontMage/xinge)**：腾讯信鸽 Push 的 Golang 封装库，已作为可复用后端集成库在实际场景中使用。
+- **[HelloGithub2zhihu](https://github.com/FrontMage/HelloGithub2zhihu)**：基于 Puppeteer 的自动化工具，用于将 GitHub 内容整理并同步为可发布的知乎文章。
 
-```
-我是一个非常喜欢编程的，自我驱动学习的程序员。
+---
 
-每当遇到新的问题，我都会先调研和学习前人的经验，再进行编码，避免写出过于“聪明”的代码。
+### 教育经历
 
-我认为现代社会，编程就像《哈利波特》中的魔杖一样，可以帮我们建造很多很有意思的东西。
-与魔法不同的是，编程的宗旨在于简单性，易读性。
-
-这就是我现在做的事情，写出好玩，简单，可读的代码。
-```
-
-邮箱: xwhxbg@gmail.com
-电话: 18627036360 (中国)
+**黑龙江大学**  
+数学与应用数学学士｜2010 年 - 2015 年

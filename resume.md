@@ -1,151 +1,98 @@
-### Biguo Xin - Rust/EVM/Golang/Full stack egineer
+### Biguo Xin
 
-![Screenshot](avatar.png)
-
-[![Arctic Code Vault Contributor](https://img.shields.io/badge/Arctic%20Code%20Vault-Contributor-blue?logo=github&style=flat)](https://github.com/FrontMage)
-
-Email: xwhxbg@gmail.com
-Phone: +86 186 2703 6360
+Systems / Infrastructure Engineer  
+Email: xwhxbg@gmail.com  
+GitHub: https://github.com/FrontMage  
+Location: China
+Age: 34
 
 ---
 
-### Education
+### Professional Summary
 
-## Heilongjiang University — B.Sc. in Mathematics and Applied Mathematics (2010–2015)
+Systems and infrastructure engineer with 9+ years of experience across Rust, Go, distributed systems, networking, and runtime debugging. Built and operated VPN, proxy, edge-compute, and high-concurrency backend systems, with hands-on ownership of performance tuning, rollout safety, and production troubleshooting. Contributed fixes upstream to FEX and box64, including instruction-decoding correctness, ARM64 dynarec behavior, and executable-memory tracking investigations in Wine + FEX compatibility stacks. Also build AI-assisted engineering workflows with durable instructions, reusable skills, MCP-integrated tooling, and verification-driven execution. Strongest in low-level debugging, compatibility issues, and making complex systems observable and stable.
 
-### Tech Arsenal
-<div style="display:flex;flex-wrap:wrap;gap:8px;margin:16px 0">
-  <span style="background:#00C4B4;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🦀 Rust 5 yrs</span>
-  <span style="background:#00CED1;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🐹 Golang 8 yrs</span>
-  <span style="background:#F59E0B;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">⛓ EVM 4 yrs</span>
-  <span style="background:#8B5CF6;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🤖 RAG 4 yrs</span>
-</div>
+---
+
+### Open Source Contributions
+
+- **FEX PR #5289**: Fixed x87 FCOM/FCOMP `st(i)` decoding and dispatch-table sizing, eliminating SIGILL and incorrect dispatch paths in 32-bit guest workloads running through Wine + FEX on ARM64.  
+  https://github.com/FEX-Emu/FEX/pull/5289
+- **box64 PR #3513**: Corrected BOX32 ARPL (`0x63`) semantics in both the interpreter and ARM64 dynarec, added a regression test, and helped close a real compatibility issue affecting production-like guest execution.  
+  https://github.com/ptitSeb/box64/pull/3513
+- **FEX issue #5328 investigation**: Produced reproducible traces and isolated an executable-memory tracking gap around `MEM_MAPPED + PAGE_EXECUTE_READ`, helping narrow down a high-impact NoExec / `C0000005` failure loop in the Windows compatibility path.  
+  https://github.com/FEX-Emu/FEX/issues/5328
 
 ---
 
 ### Professional Experience
 
-6. QunJi (crowdcomputed.com) — Backend Engineer (2025.12 — present)
+**Deeper Network**  
+Software Engineer / Tech Lead | Oct 2021 - Present
 
-- Compute nodes / task dispatch (Golang): improved node availability, WebSocket reliability, error propagation, and reverse debugging.
-- Reduced downtime with restart/redeploy strategies; designed workspace distribution to minimize switching jitter.
-- Built MCP- and skills-based workflows for ops, development, and debugging.
+- Led architecture and delivery for networking and platform components spanning transparent proxying, VPN clients, edge compute, and backend services.
+- Built cross-platform VPN and traffic-relay systems for iOS, Android, Windows, macOS, and Linux, including gVisor-based traffic interception, NAT traversal, tunnel-based DNS, and policy-driven forwarding.
+- Designed and implemented transparent HTTP/HTTPS proxy infrastructure with TLS interception, traffic modification, content filtering, and embedded JavaScript execution for advanced rule processing.
+- Developed distributed edge-compute infrastructure in Rust with EVM-based scheduling, task dispatch, node management, and Docker-based execution on edge nodes.
+- Improved release safety and operational stability for high-concurrency HTTP/TCP services through profiling, benchmarking, zero-downtime deployment, and progressive rollout strategies.
+- Built an internal RAG-based support knowledge system that automated document ingestion, vector retrieval, and LLM-assisted Q&A for support workflows.
 
-5. Deeper Network — Full‑Stack Engineer / Tech Lead (2021.10 — 2025.11)
+**Chenwu Technology**  
+CTO | Aug 2020 - Jun 2021
 
-- Helium project lead (Erlang): optimized node signal handling, network transport and block synchronization.
-- Transparent proxy (Golang): https/http transparent proxy with TLS interception, traffic forwarding, content filtering/modification, embedded JavaScript engine and support for Surge modules.
-- Deeper Machine (Rust): distributed edge computing platform — EVM-based smart-contract scheduling, task distribution and node management; Docker-based edge nodes.
-- Deeper Network VPN (Golang): cross‑platform clients (iOS, Android, Windows, macOS, Linux); gVisor-based traffic interception and relay, a Clash‑like rule engine, tunnel-based DNS to avoid pollution, NAT traversal P2P tunnels with UDP/TCP support, ad‑blocking and content filtering features.
-- Deeper GPT (Python): RAG-based knowledge Q&A system with document chunking, vector storage & retrieval, and LLM-driven QA; automated ingestion of support chats into the knowledge base.
-- Backend architecture & delivery: designed/maintained high-concurrency HTTP/TCP services with profiling/benchmarks (pprof/bench); implemented zero-downtime releases and gray rollout strategies.
+- Built Rust-based communication runtimes for covert and peer-to-peer transport on top of tox and Tokio, with custom codec, frame, session, and router layers.
+- Implemented audio-based transfer of JSON and binary payloads and adapted drivers for HiSilicon hardware to support low-power, long-lived Bluetooth communication.
+- Optimized FFT/IFFT-based signal-processing and watermarking pipelines for Armv8 with SIMD and for NVIDIA GPUs with CUDA.
 
-4. Chenwu Technology — CTO (2020.08 — 2021.06)
+**Wuhan University, Big Data Research Institute**  
+Software Engineer | Aug 2018 - Aug 2020
 
-- tox + Rust distributed communication: P2P covert communication and transport.
-- Tokio + Rust communication framework: codec/frame/session/router layers; audio-based JSON/binary transfer and driver adaptation for HiSilicon chips to support low‑power long‑lived Bluetooth connections.
-- Signal processing / data hiding: FFT/IFFT operators for watermarking, optimized for Armv8 (SIMD) and NVIDIA GPUs (CUDA).
+- Built data pipelines that transformed MySQL datasets into RDF and imported them into graph databases such as Neo4j.
+- Implemented graph-query APIs and graph-analysis capabilities with SPARQL, covering metrics such as indegree, outdegree, density, distance, and cycle-related queries.
+- Delivered graph-visualization interfaces with D3.js and ECharts for research and business-facing use cases.
 
-3. Wuhan University — Full‑Stack Engineer, Big Data Research Institute (2018.08 — 2020.08)
+**YueRanXinDong**  
+Backend Engineer | Aug 2017 - Apr 2018
 
-- Data migration & graph projects: pipeline from MySQL → RDF → graph databases (e.g., Neo4j); implemented graph algorithms and business query APIs using SPARQL to compute indegree/outdegree, density, distance, circles, etc.
-- Frontend visualization: D3.js and ECharts-based graph visualizations.
+- Developed backend services in Node.js and Go, including asynchronous workflow handling and integrations with Python services.
+- Built social application backends with Gin, GORM, PostgreSQL, and PostGIS, and supported deployment workflows through Jenkins and AWS infrastructure.
 
-2. YueRanXinDong — Backend Engineer (2017.08 — 2018.04)
+**HangbanGuanjia**  
+Frontend Engineer | May 2016 - Jul 2017
 
-- Node/Express backends and async workflow management; integrations with Go and Python microservices; DynamoDB interaction and deployments on Lambda/ELB/containers.
-- Gin + Go backend for social apps: GORM/Postgres integration, PostGIS for geospatial queries, Jenkins-based CI/CD.
-
-1. HangbanGuanjia — Frontend Engineer (2016.05 — 2017.07)
-
-- Single-page application built on Mithril: routing, state management, session restore and complex interactive components.
-- Maintained company GitLab and GitLab CI (upgrades, debugging, migrations).
-- Server-side rendering and API gateway with Express/Node: JS/CSS bundling, request tracing and caching; dynamic module loading and TypeScript compilation pipelines.
-
----
-
-### Open Source Contributions (FEX / box64)
-
-- Feb 2026: Merged FEX PR [#5289](https://github.com/FEX-Emu/FEX/pull/5289), fixing x87 FCOM/FCOMP st(i) decoding and dispatch-table sizing to eliminate SIGILL/incorrect-dispatch paths in 32-bit guest workloads on Wine+FEX (ARM64).
-- Feb 2026: Merged box64 PR [#3513](https://github.com/ptitSeb/box64/pull/3513), correcting BOX32 ARPL (0x63) semantics in both interpreter and ARM64 dynarec, and adding a regression test; this drove closure of issue [#2739](https://github.com/ptitSeb/box64/issues/2739).
-- Feb 2026: Investigated FEX issue [#5328](https://github.com/FEX-Emu/FEX/issues/5328) with reproducible traces, isolating an executable-memory tracking gap (`MEM_MAPPED + PAGE_EXECUTE_READ` leading to NoExec/C0000005 loops), helping triage a high-impact memory-mapping bug.
+- Built and maintained a Mithril-based single-page application with routing, state management, session restoration, and complex interactive components.
+- Maintained GitLab and GitLab CI infrastructure, including upgrades, migration work, and production debugging.
+- Implemented server-side rendering and API gateway services in Express/Node.js with bundling, request tracing, caching, and dynamic TypeScript compilation.
 
 ---
 
-### Skills
+### Selected Skills
 
-#### AI Workflow / Vibe Coding
+**AI Workflow**  
+Design agent-friendly development workflows with explicit task context, durable repo instructions, reusable skills, MCP-backed tool integration, and verification-driven execution. Strong at turning ambiguous engineering work into repeatable, debuggable delivery pipelines for coding, ops, and regression handling.
 
-- Expert in vibe coding to rapidly ship with LLM agents and toolchains.
-- Build AI-based workflows for teams: long-term project tracking, MCP setup, and AI skills prompt development.
+**Languages**  
+Rust, Go, Python, TypeScript, JavaScript, Erlang
 
-#### Rust
+**Systems**  
+Linux, distributed systems, networking, VPN/proxy infrastructure, Docker, Kubernetes, observability, profiling, benchmarking, zero-downtime delivery
 
-- Comfortable with Tokio and asynchronous/futures programming
-- Experience designing codecs, frames, middleware and routers
-- EVM smart contract development experience
-- Cryptography-related implementations and practical usage
-- FFI with C/C++ (bindgen) and CPU-level optimizations (SIMD, inline assembly)
-
-#### Golang
-
-- Skilled with Gin, Beego and common HTTP middleware patterns
-- Built CLI tools (tui-go, go-prompt) and cross‑platform binaries
-- Deep understanding of slices, goroutines, channels and interfaces
-- Debugging goroutine leaks and channel deadlocks; profiling and benchmarks
-- Integration with SQL/NoSQL (Postgres, MySQL, Redis, MongoDB, DynamoDB)
-- Low‑level networking (TCP/UDP/HTTP/TLS) and mobile cross‑compilation
-- Containerization and microservices with Docker/K8s: delivery, orchestration, deployment, ops
-
-#### Transformers / ML
-
-- Familiar with Hugging Face Transformers, BERT, ResNet and other models
-- Data preprocessing, augmentation, hyperparameter tuning and evaluation
-- Model pruning, quantization and serving as APIs
-
-#### HTML / CSS / SCSS
-
-- Semantic HTML, responsive layout, CSS architecture and cross‑browser fixes
-
-#### JavaScript (browser)
-
-- Native DOM/API expertise and experience with React/Vue/Mithril
-- Knowledge of WebAssembly and browser performance optimizations
-
-#### JavaScript (Node.js)
-
-- Experienced with Express, Koa and server-side middleware patterns
-- Comfortable with streams, async control flow and event loop internals
-
-#### Other languages & tools
-
-<div style="display:flex;flex-wrap:wrap;gap:8px;margin:8px 0">
-  <span style="background:#DEA584;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🦀 Rust</span>
-  <span style="background:#00CED1;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🐹 Golang</span>
-  <span style="background:#FFB86B;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🐍 Python</span>
-  <span style="background:#F97316;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">✨ TypeScript</span>
-  <span style="background:#6EE7B7;color:#000;padding:4px 10px;border-radius:6px;font-size:13px">🧠 Transformers</span>
-  <span style="background:#A78BFA;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">💡 Reason</span>
-  <span style="background:#60A5FA;color:#fff;padding:4px 10px;border-radius:6px;font-size:13px">🔢 Julia</span>
-</div>
+**Specialized**  
+Wine, FEX, box64, ARM64 compatibility, runtime debugging, FFI, SIMD, CUDA, EVM-based scheduling systems
 
 ---
 
-### Projects (side / personal)
+### Selected Projects
 
-- [fishpond](https://github.com/FrontMage/fishpond): Python & web‑WeChat chat assistant — message sentiment analysis, automated replies and statistics.
-- [gesture](https://github.com/FrontMage/gesture): OpenCV & Python gesture recognition for mouse control (move, click, zoom).
-- [xinge](https://github.com/FrontMage/xinge): Go library for Tencent Xinge push (officially adopted).
-- [HelloGithub2zhihu](https://github.com/FrontMage/HelloGithub2zhihu): Puppeteer automation to sync starred GitHub repos to Zhihu articles.
-- [wowAutoFishing](https://github.com/FrontMage/wowAutoFishing): OpenCV + PyAudio script to automate fishing in World of Warcraft by detecting bobber splash sounds and position.
-- [rock](https://github.com/FrontMage/rock): Rust full‑stack blog system (frontend: Rust+WASM, backend: actix‑web).
-- [pm](https://github.com/FrontMage/pm): Process manager in Go (similar to pm2).
+- **[winlator-llm](https://github.com/FrontMage/winlator-llm)**: LLM workflow product built as a Winlator fork, turning low-level runtime tuning, compatibility knobs, graphics-stack switches, and environment configuration into a more accessible and debuggable user-facing system.
+- **[rock](https://github.com/FrontMage/rock)**: Full-stack blog system built with Rust, using Rust + WASM on the frontend and `actix-web` on the backend.
+- **[pm](https://github.com/FrontMage/pm)**: Process manager in Go, designed as a lightweight alternative to `pm2` for service supervision and control.
+- **[xinge](https://github.com/FrontMage/xinge)**: Go library for Tencent Xinge push APIs, adopted in practice as a reusable backend integration library.
+- **[HelloGithub2zhihu](https://github.com/FrontMage/HelloGithub2zhihu)**: Automation tool built with Puppeteer to sync curated GitHub content into publishable Zhihu articles.
 
 ---
 
-### Age
+### Education
 
-33
-
----
-- Semantic HTML, responsive layout, CSS architecture and cross‑browser fixes
+**Heilongjiang University**  
+B.Sc. in Mathematics and Applied Mathematics | 2010 - 2015

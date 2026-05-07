@@ -10,7 +10,7 @@ Age: 34
 
 ### Professional Summary
 
-Systems and infrastructure engineer with 9+ years of experience across Rust, Go, distributed systems, networking, and runtime debugging. Built and operated VPN, proxy, edge-compute, and high-concurrency backend systems, with hands-on ownership of performance tuning, rollout safety, and production troubleshooting. Contributed fixes upstream to FEX and box64, including instruction-decoding correctness, ARM64 dynarec behavior, and executable-memory tracking investigations in Wine + FEX compatibility stacks. Also build AI-assisted engineering workflows with durable instructions, reusable skills, MCP-integrated tooling, and verification-driven execution. Strongest in low-level debugging, compatibility issues, and making complex systems observable and stable.
+Systems and infrastructure engineer with 9+ years of experience across Rust, Go, distributed systems, networking, and runtime debugging. Built and operated VPN, proxy, edge-compute, and high-concurrency backend systems, with hands-on ownership of performance tuning, rollout safety, and production troubleshooting. Contributed fixes upstream to FEX and box64, including instruction-decoding correctness, ARM64 dynarec behavior, and executable-memory tracking investigations in Wine + FEX compatibility stacks. Also build AI-assisted engineering workflows with durable instructions, reusable skills, MCP-integrated tooling, and verification-driven execution, backed by practical experience in NLP fundamentals, RAG, LangChain-based orchestration, and agent workflow design. Strongest in low-level debugging, compatibility issues, and making complex systems observable and stable.
 
 ---
 
@@ -26,6 +26,14 @@ Systems and infrastructure engineer with 9+ years of experience across Rust, Go,
 ---
 
 ### Professional Experience
+
+**Beijing QunJi (Crowd Computed)**  
+Software Engineer | Dec 1, 2025 - Present
+
+- Design and implement container orchestration, task dispatch, and result collection pipelines for AI compute systems.
+- Build compute orchestration on top of Docker and k3s to support node scheduling, task placement, execution isolation, and result return.
+- Develop task-dispatch infrastructure covering task lifecycle management, node assignment, execution-state tracking, and retry handling.
+- Improve resource utilization, scheduling reliability, and observability for production AI workload delivery.
 
 **Deeper Network**  
 Software Engineer / Tech Lead | Oct 2021 - Present
@@ -49,6 +57,7 @@ Software Engineer | Aug 2018 - Aug 2020
 
 - Built data pipelines that transformed MySQL datasets into RDF and imported them into graph databases such as Neo4j.
 - Implemented graph-query APIs and graph-analysis capabilities with SPARQL, covering metrics such as indegree, outdegree, density, distance, and cycle-related queries.
+- Studied NLP fundamentals and common model families during research work, including text representation, classification, sequence modeling, and Transformer-based approaches, which later informed RAG and agent-workflow engineering.
 - Delivered graph-visualization interfaces with D3.js and ECharts for research and business-facing use cases.
 
 **YueRanXinDong**  
@@ -69,7 +78,10 @@ Frontend Engineer | May 2016 - Jul 2017
 ### Selected Skills
 
 **AI Workflow**  
-Design agent-friendly development workflows with explicit task context, durable repo instructions, reusable skills, MCP-backed tool integration, and verification-driven execution. Strong at turning ambiguous engineering work into repeatable, debuggable delivery pipelines for coding, ops, and regression handling.
+Design agent-friendly engineering and operations workflows with explicit task context, durable instructions, reusable skills, MCP-backed tool integration, and verification-driven execution. Hands-on experience with task decomposition, multi-step execution, tool use, result validation, and regression handling.
+
+**NLP / LLM**  
+Solid grounding in NLP fundamentals and common model families, including text representation, classification, sequence modeling, Transformer-based architectures, vector retrieval, retrieval-augmented generation, LangChain orchestration, and tool-using agent workflows.
 
 **Languages**  
 Rust, Go, Python, TypeScript, JavaScript, Erlang
@@ -84,11 +96,11 @@ Wine, FEX, box64, ARM64 compatibility, runtime debugging, FFI, SIMD, CUDA, EVM-b
 
 ### Selected Projects
 
-- **[winlator-llm](https://github.com/FrontMage/winlator-llm)**: LLM workflow product built as a Winlator fork, turning low-level runtime tuning, compatibility knobs, graphics-stack switches, and environment configuration into a more accessible and debuggable user-facing system.
+- **[winlator-llm](https://github.com/FrontMage/winlator-llm)**: LLM workflow product built as a Winlator fork, turning low-level runtime tuning, compatibility knobs, graphics-stack switches, and environment configuration into a more accessible and debuggable user-facing system, with AI-assisted workflows reducing the operational cost of complex compatibility tuning.
+- **Deeper GPT**: Internal RAG-based support knowledge system for document ingestion, vector retrieval, LLM-assisted Q&A, knowledge-base updates, and support workflow assistance.
 - **[rock](https://github.com/FrontMage/rock)**: Full-stack blog system built with Rust, using Rust + WASM on the frontend and `actix-web` on the backend.
 - **[pm](https://github.com/FrontMage/pm)**: Process manager in Go, designed as a lightweight alternative to `pm2` for service supervision and control.
 - **[xinge](https://github.com/FrontMage/xinge)**: Go library for Tencent Xinge push APIs, adopted in practice as a reusable backend integration library.
-- **[HelloGithub2zhihu](https://github.com/FrontMage/HelloGithub2zhihu)**: Automation tool built with Puppeteer to sync curated GitHub content into publishable Zhihu articles.
 
 ---
 
